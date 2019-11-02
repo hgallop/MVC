@@ -1,7 +1,3 @@
-<?php require 'views/header.php'?>
-
-This is the error!
-
-<hr>
-
-<?php echo $this->msg; ?>
+            
+            <h2 class="content">Page not found!</h2>
+            <?php echo $this->msg;?>

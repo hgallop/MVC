@@ -1,10 +1,10 @@
 <?php
-class Index extends Controller {
+class Login extends Controller {
     function __construct() {
         parent::__construct();
     }
     function index() {
-        $this->view->render('index/index');
+        $this->view->render('login/index');
     }
 }
 ?>

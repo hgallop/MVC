@@ -5,6 +5,9 @@ class Help_Model extends Model {
         parent::__construct();
         echo 'Help Model';
     }
+    function blah() {
+        return 10 + 10;
+    }
 }
 
 ?>
